@@ -1,0 +1,9 @@
+.sidebar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+#floorplan {
+  width: 200px;
+  margin-top: 20px;
+}

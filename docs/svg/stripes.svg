@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="19.95px" width="891.6px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)">
+    <path d="M891.6 0.15 L891.6 1.55 0.0 1.55 0.0 0.15 891.6 0.15" fill="#b182be" fill-rule="evenodd" stroke="none"/>
+    <path d="M891.6 0.15 L0.0 0.15 0.0 0.0 891.6 0.0 891.6 0.15 M0.0 19.85 L891.6 19.85 891.6 19.95 0.0 19.95 0.0 19.85" fill="#000000" fill-opacity="0.003921569" fill-rule="evenodd" stroke="none"/>
+    <path d="M891.6 3.0 L891.6 3.7 0.0 3.7 0.0 3.0 891.6 3.0 M891.6 16.25 L891.6 18.1 0.0 18.1 0.0 16.25 891.6 16.25" fill="#000000" fill-rule="evenodd" stroke="none"/>
+    <path d="M891.6 4.25 L891.6 5.65 0.0 5.65 0.0 4.25 891.6 4.25" fill="#fe9915" fill-rule="evenodd" stroke="none"/>
+    <path d="M891.6 7.0 L891.6 9.3 0.0 9.3 0.0 7.0 891.6 7.0" fill="#83cee2" fill-rule="evenodd" stroke="none"/>
+    <path d="M891.6 9.9 L891.6 11.75 0.0 11.75 0.0 9.9 891.6 9.9" fill="#f31d7e" fill-rule="evenodd" stroke="none"/>
+    <path d="M891.6 13.1 L891.6 15.9 0.0 15.9 0.0 13.1 891.6 13.1" fill="#cce821" fill-rule="evenodd" stroke="none"/>
+    <path d="M0.0 19.85 L0.0 18.9 891.6 18.9 891.6 19.85 0.0 19.85" fill="#fa9dc1" fill-rule="evenodd" stroke="none"/>
+  </g>
+</svg>

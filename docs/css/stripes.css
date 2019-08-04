@@ -1,0 +1,53 @@
+.border-stripe {
+  width: 100%;
+}
+
+.stripe1 {
+  background-color: var(--purple);
+  height: 2px;
+}
+
+.stripe2 {
+  background-color: var(--bright-pink);
+  height: 4px;
+}
+
+.stripe3 {
+  background-color: black;
+  height: 2px;
+}
+
+.stripe4 {
+  background-color: var(--orange);
+  height: 4px;
+}
+
+.stripe5 {
+  background-color: var(--bright-pink);
+  height: 2px;
+}
+
+.stripe6 {
+  background-color: var(--blue);
+  height: 4px;
+}
+
+.stripe7 {
+  background-color: var(--bright-pink);
+  height: 8px;
+}
+
+.stripe8 {
+  background-color: var(--lime);
+  height: 6px;
+}
+
+.stripe9 {
+  background-color: black;
+  height: 4px;
+}
+
+.stripe9 {
+  background-color: var(--bright-pink);
+  height: 4px;
+}

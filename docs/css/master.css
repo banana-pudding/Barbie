@@ -1,27 +1,146 @@
 /*~Princesses are Super Cool!~*/
 :root {
   --bright-pink: #f31d7e;
-  --dark-orange: #fb7a2f;
+  --light-pink: #f661a5;
+  --dark-pink: #d20b65;
+  --orange: #fe9915;
+  --blue: #83cee2;
+  --lime: #cce821;
+  --purple: #b182be;
+  --garden-pink: #fa9dc1;
 }
 
-header {
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+#upper-header {
+  height: 56px;
   width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 100px;
   background-color: var(--bright-pink);
 }
 
-#logo {
-  width: 300px;
+#logo-box {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
 }
+
+.front {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 340px;
+  height: 90px;
+  background: black;
+  z-index: 1;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#logo-img {
+  width: 300px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.fallback {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 340px;
+  height: 90px;
+  background-color: var(--dark-pink);
+  border: 3px solid black;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.greeting {
+  position: absolute;
+  top: 4px;
+  left: 400px;
+  background-color: transparent;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+#lower-header {
+  width: 100%;
+  background: var(--bright-pink);
+  border-bottom: 8px solid black;
+  display: flex;
+  flex-flow: row;
+}
+
+.upper-stripes-container {
+  flex: 1;
+}
+
+#top-stripes {
+  width: 100%;
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row;
+  background: var(--light-pink);
+}
+
+.nav-item {
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.nav-separater {
+  width: 2px;
+  background: white;
+  margin: 10px 0;
+}
+
+
+
+
+.main {
+  flex: 1;
+  background: white;
+}
+
+.sidebar {
+  width: 232px;
+  height: 100%;
+  background: var(--bright-pink);
+  border-right: 6px solid black;
+}
+
+
+
+
 
 footer {
   width: 100%;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  height: 100px;
+  min-height: 40px;
   background-color: var(--bright-pink);
+}
+
+#bottom-stripes {
+  width: 100%;
+  height: 40px;
 }

@@ -3,19 +3,47 @@
 
 <head>
   <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/stripes.css">
+  <link rel="stylesheet" href="css/sidebar.css">
 </head>
 
 <body>
-  <!--Bar with barbie logo on left and some smaller links on the right-->
   <header>
-    <img id="logo" src="img/whitelogo.png">
+    <div id="upper-header"></div>
+    <div id="lower-header">
+      <div class="stripes upper-stripes-container">
+        <img src="svg/stripes.svg" id="top-stripes">
+      </div>
+      <div class="nav">
+        <span class="nav-item">Parents</span>
+        <span class="nav-separater"></span>
+        <span class="nav-item">Collector</span>
+        <span class="nav-separater"></span>
+        <span class="nav-item">Global Barbie</span>
+        <span class="nav-separater"></span>
+        <span class="nav-item">Shop with Barbie</span>
+      </div>
+    </div>
+    <div id="logo-box">
+      <div class="front">
+        <span class="helper"></span>
+        <img id="logo-img" src="img/whitelogo.png">
+      </div>
+      <div class="fallback"></div>
+    </div>
+    <span class="greeting">Hi, Barbie Girl</span>
   </header>
 
-  <div id="body">
+  <div class="main">
+    <div class="sidebar">
+      <img src="svg/floorplan.svg" id="floorplan">
+    </div>
   </div>
 
   <footer>
-    footer here
+    <div class="stripes">
+      <img src="svg/stripes.svg" id="bottom-stripes">
+    </div>
   </footer>
 </body>
 </html>
