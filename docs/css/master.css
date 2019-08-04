@@ -1,10 +1,20 @@
+/*~Princesses are Super Cool!~*/
+:root {
+  --bright-pink: #f31d7e;
+  --dark-orange: #fb7a2f;
+}
+
 header {
   width: 100%;
   position: fixed;
   top: 0px;
   left: 0px;
   height: 100px;
-  background-color: #DA1884;
+  background-color: var(--bright-pink);
+}
+
+#logo {
+  width: 300px;
 }
 
 footer {
@@ -13,5 +23,5 @@ footer {
   bottom: 0px;
   left: 0px;
   height: 100px;
-  background-color: #DA1884;
+  background-color: var(--bright-pink);
 }
