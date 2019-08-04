@@ -1,9 +1,109 @@
-.sidebar {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+:root {
+  --bright-pink: #f31d7e;
+  --light-pink: #f661a5;
+  --dark-pink: #d20b65;
+  --orange: #fe9915;
+  --blue: #83cee2;
+  --lime: #cce821;
+  --purple: #b182be;
+  --garden-pink: #fa9dc1;
 }
-#floorplan {
+
+.sidebar {
+  position: fixed;
+  width: 232px;
+  height: 100%;
+  background: var(--bright-pink);
+  border-right: 6px solid black;
+}
+
+.side-container {
+  position: relative;
   width: 200px;
+  height: 700px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.home-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 155px;
+  height: 90px;
+  z-index: 2;
+}
+
+.homebg {
+  fill: transparent;
+}
+
+.homebg:hover {
+  fill: #d965e2;
+}
+
+.bedroom-container {
+  position: absolute;
+  top: 88px;
+  left: 0px;
+  width: 185px;
+  height: 105px;
+  z-index: 2;
+}
+
+.closet-container {
+  position: absolute;
+  top: 169px;
+  left: 0px;
+  width: 120px;
+  height: 95px;
+  z-index: 3;
+}
+
+.garden-container {
+  position: absolute;
+  top: 194px;
+  left: 4px;
+  width: 180px;
+  height: 150px;
+  z-index: 2;
+}
+
+.tv-container {
+  position: absolute;
+  top: 345px;
+  left: 0px;
+  width: 185px;
+  height: 68px;
+  z-index: 2;
+}
+
+.games-container {
+  position: absolute;
+  top: 413px;
+  left: 0px;
+  width: 135px;
+  height: 85px;
+  z-index: 2;
+}
+
+.mall-container {
+  position: absolute;
+  top: 515px;
+  left: 30px;
+  width: 165px;
+  height: 105px;
+  z-index: 2;
+}
+
+.roombg {
+  fill: red;
+}
+
+#floorplan {
+  position: absolute;
+  width: 200px;
+  z-index: 9999;
 }
