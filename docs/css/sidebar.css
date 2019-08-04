@@ -27,9 +27,26 @@
   z-index: 1;
 }
 
+
+
+
 .roombg {
   fill: transparent;
 }
+
+.roomlabel {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 26px;
+  pointer-events: none;
+}
+
+.roomicon {
+  pointer-events: none;
+}
+
+
+
 
 .home-container {
   position: absolute;
@@ -40,6 +57,16 @@
   z-index: 2;
 }
 
+.home-container p {
+  position: absolute;
+  left: 64px;
+  top: 8px;
+}
+
+.home-container:hover p {
+  color: black;
+}
+
 .homebg:hover {
   fill: #d965e2;
 }
@@ -47,6 +74,10 @@
 .homeroom:hover .homeicon path{
   stroke: black;
 }
+
+
+
+
 
 .bedroom-container {
   position: absolute;
@@ -57,9 +88,30 @@
   z-index: 2;
 }
 
+.bedroom-container p {
+  position: absolute;
+  left: 12px;
+  top: -4px;
+}
+
+.bedroom-container:hover p {
+  color: black;
+}
+
+.bedroom:hover .bedroomicon path{
+  stroke: black;
+}
+
+.bedroom:hover .bedroomicon path.pillow{
+  fill: black;
+}
+
 .bedroombg:hover {
   fill: var(--orange);
 }
+
+
+
 
 .closet-container {
   position: absolute;
