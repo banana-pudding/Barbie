@@ -122,6 +122,27 @@
   z-index: 3;
 }
 
+.closet-container p {
+  position: absolute;
+  left: 64px;
+  top: 8px;
+}
+
+.closet-container:hover p {
+  color: black;
+}
+
+.closetbg:hover {
+  fill: var(--purple);
+}
+
+.closet:hover .closeticon path{
+  stroke: black;
+}
+
+
+
+
 .garden-container {
   position: absolute;
   top: 194px;
