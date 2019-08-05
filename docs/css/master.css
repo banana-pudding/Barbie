@@ -74,7 +74,7 @@ body {
 .greeting {
   position: absolute;
   top: 10px;
-  left: 440px;
+  left: 400px;
   background-color: transparent;
   color: white;
   font-family: 'Cabin', sans-serif;
