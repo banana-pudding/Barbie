@@ -29,14 +29,13 @@
 
 
 
-
 .roombg {
   fill: transparent;
 }
 
 .roomlabel {
-  color: white;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  fill: white;
+  font-family: 'Cabin', sans-serif;
   font-size: 26px;
   pointer-events: none;
 }
@@ -44,7 +43,6 @@
 .roomicon {
   pointer-events: none;
 }
-
 
 
 
@@ -57,16 +55,6 @@
   z-index: 2;
 }
 
-.home-container p {
-  position: absolute;
-  left: 64px;
-  top: 8px;
-}
-
-.home-container:hover p {
-  color: black;
-}
-
 .homebg:hover {
   fill: #d965e2;
 }
@@ -75,7 +63,9 @@
   stroke: black;
 }
 
-
+.homeroom:hover text {
+  fill: black;
+}
 
 
 
@@ -86,16 +76,6 @@
   width: 185px;
   height: 105px;
   z-index: 2;
-}
-
-.bedroom-container p {
-  position: absolute;
-  left: 12px;
-  top: -4px;
-}
-
-.bedroom-container:hover p {
-  color: black;
 }
 
 .bedroom:hover .bedroomicon path{
@@ -110,6 +90,9 @@
   fill: var(--orange);
 }
 
+.bedroom:hover text {
+  fill: black;
+}
 
 
 
@@ -122,16 +105,6 @@
   z-index: 3;
 }
 
-.closet-container p {
-  position: absolute;
-  left: 64px;
-  top: 8px;
-}
-
-.closet-container:hover p {
-  color: black;
-}
-
 .closetbg:hover {
   fill: var(--purple);
 }
@@ -140,6 +113,9 @@
   stroke: black;
 }
 
+.closet:hover text {
+  fill: black;
+}
 
 
 
@@ -152,6 +128,20 @@
   z-index: 2;
 }
 
+.gardenbg:hover {
+  fill: var(--garden-pink);
+}
+
+.garden:hover .gardenicon path{
+  stroke: black;
+}
+
+.garden:hover text {
+  fill: black;
+}
+
+
+
 .tv-container {
   position: absolute;
   top: 345px;
@@ -161,6 +151,20 @@
   z-index: 2;
 }
 
+.studiobg:hover {
+  fill: var(--blue);
+}
+
+.studio:hover .studioicon path{
+  stroke: black;
+}
+
+.studio:hover text {
+  fill: black;
+}
+
+
+
 .games-container {
   position: absolute;
   top: 413px;
@@ -169,6 +173,24 @@
   height: 85px;
   z-index: 2;
 }
+
+.gamesbg:hover {
+  fill: var(--lime);
+}
+
+.games:hover .gameicon path{
+  stroke: black;
+}
+
+.games:hover .gameicon path.buttons{
+  fill: black;
+}
+
+.games:hover text {
+  fill: black;
+}
+
+
 
 .mall-container {
   position: absolute;
