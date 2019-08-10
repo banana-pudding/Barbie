@@ -61,10 +61,11 @@ body {
 
 #com {
   color: white;
-  font-family: 'Cabin', sans-serif;
-  font-size: 52px;
+  font-family: 'Today', sans-serif;
+  font-size: 60px;
   margin-left: -4px;
   margin-right: 8px;
+  margin-top: 6px;
 }
 
 .fallback {
