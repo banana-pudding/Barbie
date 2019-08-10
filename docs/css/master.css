@@ -11,9 +11,9 @@
 }
 
 @font-face {
-    font-family: 'Blueberry';
-    src: url('../fonts/Blueberry-Regular.woff2') format('woff2'),
-        url('../fonts/Blueberry-Regular.woff') format('woff');
+    font-family: 'Today';
+    src: url('../fonts/TodaySBMedium.woff2') format('woff2'),
+        url('../fonts/TodaySBMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -85,7 +85,7 @@ body {
   left: 400px;
   background-color: transparent;
   color: white;
-  font-family: 'Blueberry';
+  font-family: 'Today';
   font-weight: normal;
   font-style: normal;
   font-size: 32px;
@@ -119,7 +119,7 @@ body {
   display: inline-flex;
   align-items: center;
   color: white;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Today', sans-serif;
   font-size: 18px;
   padding: 0 20px;
 }
