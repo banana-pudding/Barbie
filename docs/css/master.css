@@ -19,7 +19,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 10px;
   height: 100vh;
   display: flex;
   flex-flow: column;
